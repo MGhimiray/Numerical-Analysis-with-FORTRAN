@@ -1,7 +1,4 @@
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!lagrange interpolation with FORTRAN!!!!!!!!!!!1
-
-
-	
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Lagrange interpolation with FORTRAN!!!!!!!!!!!	
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!define parameters!!!!!!!!!!!!!!!!!!!
 	real x,y,n,a
 	dimension x(10), y(10)
