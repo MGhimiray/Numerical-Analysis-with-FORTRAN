@@ -1,11 +1,7 @@
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!lagrange interpolation with FORTRAN!!!!!!!!!!!1
-
-
-	
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Lagrange interpolation with FORTRAN!!!!!!!!!!!	
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!define parameters!!!!!!!!!!!!!!!!!!!
 	real x,y,n,a
 	dimension x(10), y(10)
-	
 	
 	!!!!!!!!!!!!!!!One can use an external file for importing data!!!!!!!!!!!
 	write(*,*) "Lagrange interpolation"
@@ -35,7 +31,7 @@
 	enddo	
 	sum=sum+value*y(i)
 	enddo
-	
+         	
 	write(*,*) "Interpolated value at",a, "is", sum 
 	
 	stop
